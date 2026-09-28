@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bloom — Fresh Flowers & Gifts</title>
+  <meta name="description" content="Bloom online store: fresh bouquets, plants and gifts delivered to your door.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header class="site-header">
+    <a href="#" class="logo">🌸 Bloom</a>
+    <nav>
+      <a href="#shop">Shop</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <button class="cart-btn" id="cart-open" aria-label="Open cart">
+      🛒 <span id="cart-count">0</span>
+    </button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Fresh flowers, delivered with love</h1>
+      <p>Handpicked bouquets, plants and gifts for every occasion.</p>
+      <a href="#shop" class="btn">Shop now</a>
+    </section>
+
+    <section id="shop" class="shop">
+      <div class="shop-toolbar">
+        <h2>Our Products</h2>
+        <div class="filters">
+          <input type="search" id="search" placeholder="Search products…" aria-label="Search products">
+          <select id="category" aria-label="Filter by category">
+            <option value="all">All categories</option>
+          </select>
+        </div>
+      </div>
+      <div id="product-grid" class="product-grid"></div>
+      <p id="empty-msg" class="empty" hidden>No products match your search.</p>
+    </section>
+
+    <section id="about" class="about">
+      <h2>About Bloom</h2>
+      <p>Bloom brings fresh, seasonal flowers from local growers straight to your doorstep. Every order is arranged by hand on the day it ships.</p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Contact us</h2>
+      <p>Questions about an order? Email <a href="mailto:hello@bloom.example">hello@bloom.example</a></p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> Bloom. All rights reserved.</p>
+  </footer>
+
+  <!-- Cart drawer -->
+  <div class="overlay" id="overlay" hidden></div>
+  <aside class="cart" id="cart" aria-hidden="true">
+    <div class="cart-head">
+      <h2>Your cart</h2>
+      <button id="cart-close" class="icon-btn" aria-label="Close cart">✕</button>
+    </div>
+    <ul id="cart-items" class="cart-items"></ul>
+    <p id="cart-empty" class="empty">Your cart is empty.</p>
+    <div class="cart-foot">
+      <div class="total">Total: <strong id="cart-total">Rs 0</strong></div>
+      <button class="btn full" id="checkout-btn">Checkout</button>
+    </div>
+  </aside>
+
+  <!-- Checkout dialog -->
+  <dialog id="checkout">
+    <form id="checkout-form" method="dialog">
+      <h2>Checkout</h2>
+      <label>Full name <input name="name" required></label>
+      <label>Phone <input name="phone" type="tel" required></label>
+      <label>Address <textarea name="address" rows="3" required></textarea></label>
+      <label>Payment
+        <select name="payment">
+          <option>Cash on delivery</option>
+          <option>Bank transfer</option>
+        </select>
+      </label>
+      <p class="total">Order total: <strong id="checkout-total">Rs 0</strong></p>
+      <div class="dialog-actions">
+        <button type="button" class="btn ghost" id="checkout-cancel">Cancel</button>
+        <button type="submit" class="btn">Place order</button>
+      </div>
+    </form>
+  </dialog>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="js/products.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
