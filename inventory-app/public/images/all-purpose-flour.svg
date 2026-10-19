@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#6b3a1f" flood-opacity=".25"/></filter></defs><g filter="url(#s)">
+<path d="M54 54 Q50 40 62 36 L138 36 Q150 40 146 54 L156 166 Q156 176 144 176 L56 176 Q44 176 44 166Z" fill="#f4ead8"/>
+<path d="M54 54 Q100 64 146 54 L148 70 Q100 80 52 70Z" fill="#e6d6b8"/>
+<path d="M62 36 Q74 22 84 34 Q94 20 104 34 Q114 20 124 34 Q132 24 138 36Z" fill="#f4ead8"/>
+<rect x="62" y="96" width="76" height="52" rx="10" fill="#c26a3d"/>
+<text x="100" y="128" text-anchor="middle" font-family="Georgia,serif" font-size="18" font-weight="700" fill="#fff8f0">FLOUR</text>
+<g stroke="#d9a440" stroke-width="3" fill="none"><path d="M100 90 L100 72"/><path d="M100 78 Q92 74 92 68"/><path d="M100 78 Q108 74 108 68"/><path d="M100 84 Q92 80 92 74"/><path d="M100 84 Q108 80 108 74"/></g>
+</g></svg>

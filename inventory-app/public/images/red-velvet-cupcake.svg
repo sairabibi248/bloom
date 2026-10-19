@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#6b3a1f" flood-opacity=".25"/></filter></defs><g filter="url(#s)">
+<path d="M52 110 L148 110 L134 172 L66 172Z" fill="#b11d32"/>
+<g stroke="#8a1225" stroke-width="3"><line x1="66" y1="112" x2="74" y2="170"/><line x1="84" y1="112" x2="88" y2="170"/><line x1="100" y1="112" x2="100" y2="170"/><line x1="116" y1="112" x2="112" y2="170"/><line x1="134" y1="112" x2="126" y2="170"/></g>
+<path d="M44 112 Q40 92 60 88 Q58 66 82 66 Q86 44 104 46 Q124 44 122 66 Q146 64 142 88 Q162 92 156 112Z" fill="#fffaf2"/>
+<path d="M60 88 Q80 94 100 86 Q120 94 142 88" stroke="#efe3d0" stroke-width="3" fill="none"/>
+<path d="M82 66 Q96 72 122 66" stroke="#efe3d0" stroke-width="3" fill="none"/>
+<g fill="#c8102e"><circle cx="72" cy="80" r="3"/><circle cx="118" cy="78" r="3"/><circle cx="96" cy="98" r="3"/><circle cx="134" cy="100" r="3"/><circle cx="62" cy="104" r="3"/></g>
+<circle cx="104" cy="40" r="11" fill="#d61f3c"/><circle cx="100" cy="36" r="3.5" fill="#fff" opacity=".5"/><path d="M104 29 Q108 18 116 16" stroke="#3a7d2c" stroke-width="3" fill="none"/>
+</g></svg>

@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200"><defs><filter id="s" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="6" stdDeviation="6" flood-color="#6b3a1f" flood-opacity=".25"/></filter></defs><g filter="url(#s)">
+<ellipse cx="100" cy="108" rx="78" ry="62" fill="#e09a45"/>
+<path d="M24 102 C24 56 62 38 100 38 C142 38 178 56 176 100 C174 120 164 112 156 124 C146 136 140 118 128 132 C116 144 110 126 98 138 C86 148 80 128 68 136 C54 144 50 122 40 124 C30 126 24 116 24 102Z" fill="#fbe7c6"/>
+<ellipse cx="72" cy="58" rx="30" ry="8" fill="#fff" opacity=".6"/>
+<ellipse cx="100" cy="98" rx="24" ry="17" fill="#c27a2a"/>
+<ellipse cx="100" cy="101" rx="20" ry="13" fill="#fff8f0"/>
+</g></svg>
